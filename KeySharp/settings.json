@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Numpad wireless",
+    "id": "\\\\?\\HID#VID_248A&PID_8367&MI_01#7&3a846322&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
+    "mappings": [
+      {
+        "key_code": 13,
+        "map": "+{F5}",
+        "flag": "Up"
+      },
+      {
+        "key_code": 14,
+        "map": "+{F6}",
+        "flag": "Up"
+      },
+      {
+        "key_code": 15,
+        "map": "+{F7}",
+        "flag": "Up"
+      },
+      {
+        "key_code": 28,
+        "map": "+{F8}",
+        "flag": "KeyE0"
+      }
+    ]
+  }
+]
