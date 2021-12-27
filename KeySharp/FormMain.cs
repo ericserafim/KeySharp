@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace KeySharp
 {
-  public partial class Form1 : Form
+  public partial class FormMain : Form
   {
-    public Form1()
+    public FormMain()
     {
       var devices = JsonConvert.DeserializeObject<List<Device>>(File.ReadAllText("settings.json"));
       var window = new RawInputReceiverWindow();
@@ -69,6 +69,12 @@ namespace KeySharp
     {
       var device = (Device)grid.CurrentRow.DataBoundItem;
       gridDetail.DataSource = device.Mappings;
+    }
+
+    private void DeviceScanMenu_Click(object sender, EventArgs e)
+    {
+      var deviceScanForm = new FormDeviceScan();
+      deviceScanForm.Show(this);
     }
   }
 }

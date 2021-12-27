@@ -1,7 +1,7 @@
 [
   {
     "name": "Numpad wireless",
-    "id": "\\\\?\\HID#VID_248A&PID_8367&MI_01#7&3a846322&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
+    "id": "\\\\?\\HID#VID_248A&PID_8367&MI_01#7&15462b27&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
     "mappings": [
       {
         "key_code": 13,
