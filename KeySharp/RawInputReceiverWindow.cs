@@ -3,7 +3,7 @@ using Linearstar.Windows.RawInput;
 using System;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace KeySharp
 {
   class RawInputEventArgs : EventArgs
   {

@@ -2,12 +2,11 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace KeySharp
 {
   public partial class Form1 : Form
   {
@@ -35,8 +34,8 @@ namespace WindowsFormsApp1
 
       RawInputDevice.RegisterDevice(HidUsageAndPage.Keyboard, RawInputDeviceFlags.ExInputSink | RawInputDeviceFlags.NoLegacy, window.Handle);
       InitializeComponent();
-      
-      grid.DataSource = devices;      
+
+      grid.DataSource = devices;
     }
 
     private void Form1_FormClosing(object sender, FormClosingEventArgs e)

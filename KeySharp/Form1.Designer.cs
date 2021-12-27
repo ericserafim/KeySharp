@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace KeySharp
 {
   partial class Form1
   {

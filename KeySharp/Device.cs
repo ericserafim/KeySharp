@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace WindowsFormsApp1
+namespace KeySharp
 {
 
   public class Devices
